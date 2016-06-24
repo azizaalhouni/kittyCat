@@ -20,7 +20,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 16px;
-	font: "Helvetica-Light", sans-serif;
+	font: "Helvetica", sans-serif;
+  font-weight: lighter;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -30,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  background-color: #eaeaea;
 }
 ol, ul {
 	list-style: none;
