@@ -136,21 +136,20 @@ button:hover {
   width: 960px;
 }
 
-.description img {
+#recent ul img {
   display: block;
   float: left;
-  width: 50%;
   margin: 15px 20px 15px 0;
   width: 475px;
   height: 300px;
 }
 
-.description h2 {
+#recent h2 {
   float: left;
   font-size: 25px;
 }
 
-.description div {
+#recent li div {
   float: left;
   display: inline-block;
   width: 465px;
