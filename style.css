@@ -1,0 +1,29 @@
+header {
+  height: 100px;
+  background: #2d2d2d;
+}
+
+.nav li {
+  display: inline-block;
+  float: left;
+  text-transform: uppercase;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  background-color: #000;
+}
+
+.nav div {
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  width: 100px;
+  background-color: #2d2d2d;
+}
+
+.nav div p {
+  color: #fff;
+  text-align: center;
+  padding-top: 33px;
+  font-family: "Droid Sans 700", sans-serif;
+}
