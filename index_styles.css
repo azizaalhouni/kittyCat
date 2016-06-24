@@ -102,7 +102,6 @@ h2 {
   width: 175px;
   height: 2px;
   display: block;
-  margin-bottom: 10px;
 }
 
 .black {
@@ -111,10 +110,11 @@ h2 {
 
 .white {
   background-color: #fff;
+  margin: 10px 0;
 }
 
 .centered {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 button {
@@ -136,6 +136,10 @@ button:hover {
   width: 960px;
 }
 
+#recent ul li {
+  margin: 15px 0;
+}
+
 #recent ul img {
   display: block;
   float: left;
@@ -144,22 +148,21 @@ button:hover {
   height: 300px;
 }
 
-#recent h2 {
-  float: left;
-  font-size: 25px;
-}
-
-#recent li div {
+#recent li div.kitty {
   float: left;
   display: inline-block;
-  width: 465px;
-  height: 300px;
-  line-height: 26px;
+  width: 425px;
+  height: 260px;
+  line-height: 22px;
   margin: 15px 0;
   background-color: #2d2d2d;
   color: #fff;
+  padding: 20px;
 }
 
+#recent li div div {
+  margin: 15px 0 30px;
+}
 footer {
   clear: both;
 }
