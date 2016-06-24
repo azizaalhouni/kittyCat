@@ -1,3 +1,9 @@
+/* Base Styles */
+
+* {
+  font-family: "Helvetica-Light", sans-serif;
+}
+
 header {
   height: 100px;
   background: #2d2d2d;
@@ -13,17 +19,53 @@ header {
   background-color: #000;
 }
 
+.nav li.selected {
+  background-color: red;
+}
+
 .nav div {
   position: absolute;
   bottom: 0;
-  height: 80px;
+  height: 86px;
   width: 100px;
   background-color: #2d2d2d;
 }
 
 .nav div p {
-  color: #fff;
+  color: #878787;
   text-align: center;
   padding-top: 33px;
   font-family: "Droid Sans 700", sans-serif;
+  font-weight: bolder;
+}
+
+.nav div .current {
+  color: #fff;
+}
+.social_media li {
+  float: right;
+  display: inline-block;
+  margin: 30px 15px;
+}
+
+.social_media li:first-child {
+  margin-right: 30px;
+}
+
+.social_media img {
+  width: 35px;
+  height: 35px;
+}
+
+footer {
+  width: 960px;
+  height: 50px;
+  background-color: #2d2d2d;
+}
+
+footer p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
 }
