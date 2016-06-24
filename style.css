@@ -29,10 +29,15 @@ header {
   height: 86px;
   width: 100px;
   background-color: #2d2d2d;
+  color: #878787;
+}
+
+.nav div:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .nav div p {
-  color: #878787;
   text-align: center;
   padding-top: 33px;
   font-family: "Droid Sans 700", sans-serif;
