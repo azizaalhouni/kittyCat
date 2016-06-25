@@ -83,3 +83,33 @@ footer p {
   text-align: center;
   padding-top: 15px;
 }
+
+section .fold {
+  padding-top: 30px;
+  height: 400px;
+  width: 960px;
+}
+
+div .aboutUs {
+  float: left;
+  background: green;
+  height: 300px;
+  width: 960px;
+}
+
+.poem ul {
+  font-size: 20px;
+  float: left;
+}
+
+.poem li {
+  display: inline-block;
+  width: 400px;
+  margin-right: 30px;
+}
+
+.poem li:last-child {
+  display: inline-block;
+  width: 400px;
+  margin-right: 0px;
+}
