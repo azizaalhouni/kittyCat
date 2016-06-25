@@ -2,14 +2,14 @@
 * {
   font-family: "Helvetica-Light", sans-serif;
   }
+
 h2 {
   font-size: 2em;
 }
+
 h3 {
   font-size: 1.5em;
 }
-
-/*inner was the only conflict*/
 
 .inner {
   margin: 0 auto;
@@ -77,54 +77,18 @@ a {
   width: 35px;
   height: 35px;
 }
-/*Body */
-.kittyImg img{
-  height: 450px;
-  width:960px;
-  opacity: .5;
-  position: relative;
-}
 
-fieldset {
-margin:13px 0;
-}
-  label {
-    /* To make sure that all labels have the same size and are properly aligned */
-    display: inline-block;
-    width: 90px;
-    text-align: left;
-}
+/* Body */
 
-textarea {
-    width: 266px;
-    height: 100px;
-    padding: 8px 5px;
-    background-color: #f8f8f8;
-}
-  input[type="text"] {
-  padding: 8px 5px;
-  width:266px;
-}
+<<<<<<< HEAD
 
-h1.border{
-  position:absolute;
-  top: 234px;
-  left: 139px;
-  color: white;
-  font-size: 2.5em;
-  font-weight:bold;
-  width: 675px;
-  height: 162px;
-  border: 6px solid white;
-  margin: -4px;
-  text-align: center;
-  margin-top:-19px;
-  padding-top:75px;
-  }
+
 
 /*footer */
 /*footer {*/
 /*=======*/
+=======
+>>>>>>> master
 /* Main Content Styles */
 .divider {
   width: 175px;
@@ -168,7 +132,6 @@ h2.title {
 .banner {
   position: relative;
   height: 590px;
-/*>>>>>>> master*/
   width: 960px;
 }
 
@@ -244,7 +207,7 @@ h2.subhead {
   height: 300px;
 }
 
-.kitty {
+.kitty_bio {
   float: left;
   display: inline-block;
   width: 417px;
@@ -256,7 +219,7 @@ h2.subhead {
   padding: 24px 24px 16px;
 }
 
-.kitty span {
+.kitty_bio span {
     margin-top: 10px;
 }
 
@@ -264,26 +227,12 @@ h2.subhead {
   margin: 15px 0 30px;
 }
 
-/* Footer Styles */
-
-footer {
-  width: 960px;
-  height: 50px;
-  background-color: #2d2d2d;
-  clear: both;
-}
-
-footer p {
-  color: white;
-  text-align: center;
-  padding-top: 18px;
-}
-
-/* About Page Styles ++++++++ ++++++++++++ */
+/* About Page Styles */
 
 .about {
   overflow: hidden;
 }
+
 .aboutUs {
   background-color: #3A3A3A;
   float: left;
@@ -328,18 +277,69 @@ span.divider {
   margin-right: 0px;
 }
 
-/*Aziza's css for contact page +++++ ++++++ */
+/* Aziza's css for contact page */
+
+.kittyImg img{
+  height: 450px;
+  width:960px;
+  opacity: .5;
+  position: relative;
+}
+
+h1.border{
+  position:absolute;
+  top: 234px;
+  left: 139px;
+  color: white;
+  font-size: 2.5em;
+  font-weight:bold;
+  width: 675px;
+  height: 162px;
+  border: 6px solid white;
+  margin: -4px;
+  text-align: center;
+  margin-top:-19px;
+  padding-top:75px;
+  }
+
+form {  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+}
+
+fieldset {
+margin:13px 0;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+}
+
+textarea {
+    width: 266px;
+    height: 100px;
+    padding: 8px 5px;
+    background-color: #f8f8f8;
+}
+
+input[type="text"] {
+  padding: 8px 5px;
+  width:266px;
+}
 
 input[type="text"]:focus {
   background: #444;
   color: #fff;
 }
 
-/*<<<<<<< HEAD*/
 input[type="submit"] {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #fff;
   font-size: 20px;
   background:  #E00000;
   padding: 14px 30px;
@@ -362,6 +362,7 @@ input[type="submit"]:hover {
   margin-top: 20px;
 }
 
+<<<<<<< HEAD
 form {  /* Just to center the form on the page */
   margin: 0 auto;
   width: 400px;
@@ -369,5 +370,25 @@ form {  /* Just to center the form on the page */
 }
 
 h2.contact {
+=======
+.contactTitle {
+text-align:center;
+font-size: 40px;
+>>>>>>> master
 padding-top: 30px;
+}
+
+/* Footer Styles */
+
+footer {
+  width: 960px;
+  height: 50px;
+  background-color: #2d2d2d;
+  clear: both;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding-top: 18px;
 }
