@@ -80,6 +80,15 @@ a {
 
 /* Body */
 
+<<<<<<< HEAD
+
+
+
+/*footer */
+/*footer {*/
+/*=======*/
+=======
+>>>>>>> master
 /* Main Content Styles */
 .divider {
   width: 175px;
@@ -277,13 +286,13 @@ span.divider {
   position: relative;
 }
 
-h1 {
+h1.border{
   position:absolute;
   top: 234px;
   left: 139px;
   color: white;
-  font-size: 50px;
-  font-style: normal;
+  font-size: 2.5em;
+  font-weight:bold;
   width: 675px;
   height: 162px;
   border: 6px solid white;
@@ -291,7 +300,7 @@ h1 {
   text-align: center;
   margin-top:-19px;
   padding-top:75px;
-}
+  }
 
 form {  /* Just to center the form on the page */
   margin: 0 auto;
@@ -330,9 +339,9 @@ input[type="text"]:focus {
 input[type="submit"] {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  color: #ffffff ;
+  color: #fff;
   font-size: 20px;
-  background: #E00000 ;
+  background:  #E00000;
   padding: 14px 30px;
   text-decoration: none;
   margin-left: 194px;
@@ -353,11 +362,20 @@ input[type="submit"]:hover {
   margin-top: 20px;
 }
 
+<<<<<<< HEAD
+form {  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+}
+
+h2.contact {
+=======
 .contactTitle {
 text-align:center;
 font-size: 40px;
+>>>>>>> master
 padding-top: 30px;
-text-decoration:underline;
 }
 
 /* Footer Styles */
