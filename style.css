@@ -107,10 +107,6 @@ p.button:hover {
 }
 
 /* Index Page Styles */
-h2 {
-  text-align: center;
-  margin: 28px 20px 16px;
-}
 
 h2.title {
   margin: 100px auto 10px;
@@ -148,6 +144,15 @@ h2.title {
   width: 960px;
 }
 
+h2.subhead {
+  text-align: center;
+  margin: 28px 20px 16px;
+}
+
+#recent p {
+  font-size: 1.25em;
+}
+
 #recent ul li {
   margin: 15px 0;
 }
@@ -160,16 +165,20 @@ h2.title {
   height: 300px;
 }
 
-#recent li div.kitty {
+.kitty {
   float: left;
   display: inline-block;
-  width: 425px;
+  width: 417px;
   height: 260px;
-  line-height: 22px;
+  line-height: 26px;
   margin: 15px 0;
   background-color: #2d2d2d;
   color: #fff;
-  padding: 20px;
+  padding: 24px 24px 16px;
+}
+
+.kitty span {
+    margin-top: 10px;
 }
 
 #recent li div div {
@@ -217,8 +226,7 @@ footer {
 }
 
 footer p {
-  font-size: .8em;
   color: white;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 18px;
 }
