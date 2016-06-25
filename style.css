@@ -140,6 +140,31 @@ h2.title {
   width: 136px;
 }
 
+.slider-container {
+  position: absolute;
+  bottom: 0;
+  width: 960px;
+  height: 65px;
+}
+
+.slider {
+  width: 191px;
+  margin: 0 auto;
+}
+
+.slider span {
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.slider span.solid {
+  background-color: #fff;
+}
+
 #recent {
   width: 960px;
 }
