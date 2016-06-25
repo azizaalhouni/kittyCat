@@ -3,6 +3,13 @@
   font-family: "Helvetica-Light", sans-serif;
   }
 
+h1 {
+  font-size: 2.5em;
+  color: #fff;
+  text-align: center;
+  font-weight: lighter;
+}
+
 h2 {
   font-size: 2em;
 }
@@ -58,7 +65,7 @@ a {
   text-align: center;
   padding-top: 33px;
   font-family: "Droid Sans 700", sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .nav div .current {
@@ -80,15 +87,6 @@ a {
 
 /* Body */
 
-<<<<<<< HEAD
-
-
-
-/*footer */
-/*footer {*/
-/*=======*/
-=======
->>>>>>> master
 /* Main Content Styles */
 .divider {
   width: 175px;
@@ -126,6 +124,7 @@ p.button:hover {
 /* Index Page Styles */
 
 h2.title {
+  text-align: center;
   margin: 100px auto 10px;
 }
 
@@ -186,8 +185,8 @@ h2.title {
   width: 960px;
 }
 
-h2.subhead {
-  text-align: center;
+#recent h1 {
+  color: #000;
   margin: 28px 20px 16px;
 }
 
@@ -248,11 +247,6 @@ h2.subhead {
   margin-top: 20px;
 }
 
-span.divider {
-  margin: 0 auto;
-  width: 115px;
-}
-
 .poem {
   margin-left: 31px;
   margin-top: 20px;
@@ -290,12 +284,11 @@ h1.border{
   position:absolute;
   top: 234px;
   left: 139px;
-  color: white;
-  font-size: 2.5em;
+  color: #ffffff;
   font-weight:bold;
   width: 675px;
   height: 162px;
-  border: 6px solid white;
+  border: 6px solid #ffffff;
   margin: -4px;
   text-align: center;
   margin-top:-19px;
@@ -309,7 +302,7 @@ form {  /* Just to center the form on the page */
 }
 
 fieldset {
-margin:13px 0;
+margin: 13px 0;
 }
 
 label {
@@ -362,20 +355,8 @@ input[type="submit"]:hover {
   margin-top: 20px;
 }
 
-<<<<<<< HEAD
-form {  /* Just to center the form on the page */
-  margin: 0 auto;
-  width: 400px;
-  padding: 1em;
-}
-
 h2.contact {
-=======
-.contactTitle {
-text-align:center;
-font-size: 40px;
->>>>>>> master
-padding-top: 30px;
+  padding-top: 30px;
 }
 
 /* Footer Styles */
