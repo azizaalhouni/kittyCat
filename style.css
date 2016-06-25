@@ -1,21 +1,17 @@
 /* Base Styles */
-
 * {
   font-family: "Helvetica-Light", sans-serif;
   }
-
 h2 {
   font-size: 2em;
 }
-
 h3 {
   font-size: 1.5em;
 }
-.inner{
-    margin: 0 auto;
+.inner {
+  margin: 0 auto;
   width: 960px;
 }
-
 header {
   width: 960px;
   height: 100px;
@@ -77,62 +73,47 @@ header {
 .kittyImg img{
   height: 450px;
   width:960px;
-      opacity: .5;
+  opacity: .5;
   position: relative;
 }
 
-fieldset{
-width:960px;
-  margin:20px 0;
-  }
-  label{
-    margin-right: 5px;
-    float:left;
-  }
-  .textForm{
+fieldset {
+margin:13px 0;
+}
+  label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+}
 
-    float:right;
-  }
-  textarea {
-    width: 200px;
+textarea {
+    width: 266px;
     height: 100px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border-radius: 4px;
+    padding: 8px 5px;
     background-color: #f8f8f8;
 }
   input[type="text"] {
   padding: 8px 5px;
-  /* just added */
-  border: solid 1px #444;
-  border-radius: 3px;
+  width:266px;
 }
-div{
-  margin:5px;
-}
+
 h1{
   position:absolute;
   top: 234px;
-      left: 135px;
-    color: white;
-    padding-left:390px;
-    font-size:50px;
-    font-style:normal;
-    width: 420px;
-    height: 100px;
-    padding: 25px;
-    border: 8px solid white;
-    margin: 25px;
-    text-align: center;
-
+  left: 139px;
+  color: white;
+  font-size: 50px;
+  font-style: normal;
+  width: 675px;
+  height: 162px;
+  border: 6px solid white;
+  margin: -4px;
+  text-align: center;
+  margin-top:-19px;
+  padding-top:75px;
 }
 
-}
-.border{
-
-}
-
-/* just added - check it out! */
 input[type="text"]:focus {
   background: #444;
   color: #fff;
@@ -144,8 +125,11 @@ input[type="submit"] {
   color: #ffffff ;
   font-size: 20px;
   background: #E00000 ;
-  padding: 10px 30px;
+  padding: 14px 30px;
   text-decoration: none;
+  margin-left: 194px;
+  width: 179px;
+  border:none;
 }
 
 input[type="submit"]:hover {
@@ -154,13 +138,23 @@ input[type="submit"]:hover {
 }
 
 .chat_form{
-    background:#2D2D2D;
+  background:#3A3A3A;
   width:960px;
   heght:450px;
   color:white;
-  }
-p{
-
+  margin-top: 20px;
+}
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+}
+.contactTitle {
+text-align:center;
+font-size: 40px;
+padding-top: 30px;
+text-decoration:underline;
 }
 /*footer */
 footer {
