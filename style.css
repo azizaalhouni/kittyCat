@@ -12,6 +12,7 @@ h3 {
   font-size: 1.5em;
 }
 
+/* Header Styles */
 header {
   width: 960px;
   height: 100px;
@@ -71,18 +72,111 @@ header {
   height: 35px;
 }
 
-footer {
-  width: 960px;
-  height: 50px;
-  background-color: #2d2d2d;
+/* Main Content Styles */
+.divider {
+  width: 175px;
+  height: 2px;
+  display: block;
 }
 
-footer p {
-  font-size: .8em;
-  color: white;
-  text-align: center;
-  padding-top: 15px;
+.black {
+  background-color: #000;
 }
+
+.white {
+  background-color: #fff;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+p.button {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.4em;
+  background: #E00000;
+  text-decoration: none;
+  text-align: center;
+}
+
+p.button:hover {
+ background: #f00;
+ text-decoration: none;
+}
+
+/* Index Page Styles */
+h2 {
+  text-align: center;
+  margin: 28px 20px 16px;
+}
+
+h2.title {
+  margin: 100px auto 10px;
+}
+
+.banner {
+  position: relative;
+  height: 590px;
+  width: 960px;
+}
+
+.overlay {
+  position: absolute;
+  height: 590px;
+  width: 285px;
+  left: 0;
+  top: 0;
+  color: white;
+  background-color: rgba(58, 58, 58, 0.7);
+}
+
+.overlay p {
+  font-size: 1.4em;
+  line-height: 26px;
+  margin: 20px;
+}
+
+.overlay .button {
+  padding: 15px 30px;
+  margin: 20px auto;
+  width: 136px;
+}
+
+#recent {
+  width: 960px;
+}
+
+#recent ul li {
+  margin: 15px 0;
+}
+
+#recent ul img {
+  display: block;
+  float: left;
+  margin: 15px 20px 15px 0;
+  width: 475px;
+  height: 300px;
+}
+
+#recent li div.kitty {
+  float: left;
+  display: inline-block;
+  width: 425px;
+  height: 260px;
+  line-height: 22px;
+  margin: 15px 0;
+  background-color: #2d2d2d;
+  color: #fff;
+  padding: 20px;
+}
+
+#recent li div div {
+  margin: 15px 0 30px;
+}
+
+/* About Page Styles */
 
 section .fold {
   padding-top: 30px;
@@ -98,7 +192,7 @@ div .aboutUs {
 }
 
 .poem ul {
-  font-size: 20px;
+  font-size: 1.25em;
   float: left;
 }
 
@@ -112,4 +206,19 @@ div .aboutUs {
   display: inline-block;
   width: 400px;
   margin-right: 0px;
+}
+
+/* Footer Styles */
+footer {
+  width: 960px;
+  height: 50px;
+  background-color: #2d2d2d;
+  clear: both;
+}
+
+footer p {
+  font-size: .8em;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
 }
