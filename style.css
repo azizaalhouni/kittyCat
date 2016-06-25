@@ -1,18 +1,21 @@
 /* Base Styles */
-
 * {
   font-family: "Helvetica-Light", sans-serif;
-}
-
+  }
 h2 {
   font-size: 2em;
 }
-
 h3 {
   font-size: 1.5em;
 }
 
-/* Header Styles */
+/*inner was the only conflict*/
+
+.inner {
+  margin: 0 auto;
+  width: 960px;
+}
+
 header {
   width: 960px;
   height: 100px;
@@ -66,12 +69,101 @@ header {
 .social_media li:first-child {
   margin-right: 30px;
 }
-
 .social_media img {
   width: 35px;
   height: 35px;
 }
+/*Body */
+.kittyImg img{
+  height: 450px;
+  width:960px;
+  opacity: .5;
+  position: relative;
+}
 
+fieldset {
+margin:13px 0;
+}
+  label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+}
+
+textarea {
+    width: 266px;
+    height: 100px;
+    padding: 8px 5px;
+    background-color: #f8f8f8;
+}
+  input[type="text"] {
+  padding: 8px 5px;
+  width:266px;
+}
+
+h1{
+  position:absolute;
+  top: 234px;
+  left: 139px;
+  color: white;
+  font-size: 50px;
+  font-style: normal;
+  width: 675px;
+  height: 162px;
+  border: 6px solid white;
+  margin: -4px;
+  text-align: center;
+  margin-top:-19px;
+  padding-top:75px;
+}
+
+input[type="text"]:focus {
+  background: #444;
+  color: #fff;
+}
+
+<<<<<<< HEAD
+input[type="submit"] {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ffffff ;
+  font-size: 20px;
+  background: #E00000 ;
+  padding: 14px 30px;
+  text-decoration: none;
+  margin-left: 194px;
+  width: 179px;
+  border:none;
+}
+
+input[type="submit"]:hover {
+  background: #f00;
+  text-decoration: none;
+}
+
+.chat_form{
+  background:#3A3A3A;
+  width:960px;
+  heght:450px;
+  color:white;
+  margin-top: 20px;
+}
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+}
+.contactTitle {
+text-align:center;
+font-size: 40px;
+padding-top: 30px;
+text-decoration:underline;
+}
+/*footer */
+footer {
+=======
 /* Main Content Styles */
 .divider {
   width: 175px;
@@ -115,6 +207,7 @@ h2.title {
 .banner {
   position: relative;
   height: 590px;
+>>>>>>> master
   width: 960px;
 }
 
