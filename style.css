@@ -118,52 +118,9 @@ h1{
   padding-top:75px;
 }
 
-input[type="text"]:focus {
-  background: #444;
-  color: #fff;
-}
-
-<<<<<<< HEAD
-input[type="submit"] {
-  font-family: Helvetica, sans-serif;
-  font-weight: bold;
-  color: #ffffff ;
-  font-size: 20px;
-  background: #E00000 ;
-  padding: 14px 30px;
-  text-decoration: none;
-  margin-left: 194px;
-  width: 179px;
-  border:none;
-}
-
-input[type="submit"]:hover {
-  background: #f00;
-  text-decoration: none;
-}
-
-.chat_form{
-  background:#3A3A3A;
-  width:960px;
-  heght:450px;
-  color:white;
-  margin-top: 20px;
-}
-form {
-    /* Just to center the form on the page */
-    margin: 0 auto;
-    width: 400px;
-    padding: 1em;
-}
-.contactTitle {
-text-align:center;
-font-size: 40px;
-padding-top: 30px;
-text-decoration:underline;
-}
 /*footer */
-footer {
-=======
+/*footer {*/
+/*=======*/
 /* Main Content Styles */
 .divider {
   width: 175px;
@@ -207,7 +164,7 @@ h2.title {
 .banner {
   position: relative;
   height: 590px;
->>>>>>> master
+/*>>>>>>> master*/
   width: 960px;
 }
 
@@ -303,39 +260,8 @@ h2.subhead {
   margin: 15px 0 30px;
 }
 
-/* About Page Styles */
-
-section .fold {
-  padding-top: 30px;
-  height: 400px;
-  width: 960px;
-}
-
-div .aboutUs {
-  float: left;
-  background: green;
-  height: 300px;
-  width: 960px;
-}
-
-.poem ul {
-  font-size: 1.25em;
-  float: left;
-}
-
-.poem li {
-  display: inline-block;
-  width: 400px;
-  margin-right: 30px;
-}
-
-.poem li:last-child {
-  display: inline-block;
-  width: 400px;
-  margin-right: 0px;
-}
-
 /* Footer Styles */
+
 footer {
   width: 960px;
   height: 50px;
@@ -347,4 +273,100 @@ footer p {
   color: white;
   text-align: center;
   padding-top: 18px;
+}
+
+/* About Page Styles ++++++++ ++++++++++++ */
+
+.about {
+  overflow: hidden;
+}
+.aboutUs {
+  background-color: #3A3A3A;
+  float: left;
+  width: 960px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+.aboutUs h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+span.divider {
+  margin: 0 auto;
+  width: 115px;
+}
+
+.poem {
+  margin-left: 31px;
+  margin-top: 20px;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.poem li {
+  display: inline-block;
+  width: 435px;
+  margin-right: 30px;
+}
+
+.poem p {
+  line-height: 25px;
+  font-size: 22px;
+}
+
+.poem li:last-child {
+  display: inline-block;
+  width: 435px;
+  margin-right: 0px;
+}
+
+/*Aziza's css for contact page +++++ ++++++ */
+
+input[type="text"]:focus {
+  background: #444;
+  color: #fff;
+}
+
+/*<<<<<<< HEAD*/
+input[type="submit"] {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ffffff ;
+  font-size: 20px;
+  background: #E00000 ;
+  padding: 14px 30px;
+  text-decoration: none;
+  margin-left: 194px;
+  width: 179px;
+  border:none;
+}
+
+input[type="submit"]:hover {
+  background: #f00;
+  text-decoration: none;
+}
+
+.chat_form {
+  background:#3A3A3A;
+  width:960px;
+  heght:450px;
+  color:white;
+  margin-top: 20px;
+}
+
+form {  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+}
+
+.contactTitle {
+text-align:center;
+font-size: 40px;
+padding-top: 30px;
+text-decoration:underline;
 }
