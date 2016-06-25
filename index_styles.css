@@ -95,8 +95,35 @@ footer p {
 
 h2 {
   text-align: center;
-  margin: 20px 20px 10px;
+  margin: 28px 20px 16px;
 }
+
+h2.title {
+  margin: 100px auto 10px;
+}
+
+.banner {
+  position: relative;
+  height: 590px;
+  width: 960px;
+}
+
+.overlay {
+  position: absolute;
+  height: 590px;
+  width: 285px;
+  left: 0;
+  top: 0;
+  color: white;
+  background-color: rgba(58, 58, 58, 0.7);
+}
+
+.overlay p {
+  font-size: 1.4em;
+  line-height: 26px;
+  margin: 20px;
+}
+
 
 .divider {
   width: 175px;
@@ -117,17 +144,20 @@ h2 {
     margin: 0 auto;
 }
 
-button {
- font-family: Helvetica, sans-serif;
- font-weight: bold;
- color: #ffffff ;
- font-size: 20px;
- background: #E00000 ;
- padding: 10px 30px;
- text-decoration: none;
+p.button {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.25em;
+  background: #E00000;
+  padding: 12px 30px;
+  text-decoration: none;
+  margin: 20px auto;
+  width: 136px;
+  text-align: center;
 }
 
-button:hover {
+p.button:hover {
  background: #f00;
  text-decoration: none;
 }
