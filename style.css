@@ -106,13 +106,13 @@ textarea {
   width:266px;
 }
 
-h1{
+h1.border{
   position:absolute;
   top: 234px;
   left: 139px;
   color: white;
-  font-size: 50px;
-  font-style: normal;
+  font-size: 2.5em;
+  font-weight:bold;
   width: 675px;
   height: 162px;
   border: 6px solid white;
@@ -120,7 +120,7 @@ h1{
   text-align: center;
   margin-top:-19px;
   padding-top:75px;
-}
+  }
 
 /*footer */
 /*footer {*/
@@ -339,9 +339,9 @@ input[type="text"]:focus {
 input[type="submit"] {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  color: #ffffff ;
+  color: #FFFFFF;
   font-size: 20px;
-  background: #E00000 ;
+  background:  #E00000;
   padding: 14px 30px;
   text-decoration: none;
   margin-left: 194px;
@@ -368,9 +368,6 @@ form {  /* Just to center the form on the page */
   padding: 1em;
 }
 
-.contactTitle {
-text-align:center;
-font-size: 40px;
+h2.contact {
 padding-top: 30px;
-text-decoration:underline;
 }
