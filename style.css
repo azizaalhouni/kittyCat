@@ -361,15 +361,15 @@ input[type="submit"]:hover {
   color:white;
   margin-top: 20px;
 }
-
-form {  /* Just to center the form on the page */
+/* Just to center the form on the page */
+form {
   margin: 0 auto;
   width: 400px;
   padding: 1em;
 }
-
+/*to center Let's talk*/
 h2.contact {
   text-align: center;
   margin: 28px 20px 16px;
- padding-top: 30px;
+  padding-top: 30px;
 }
