@@ -281,7 +281,7 @@ h2.title {
 }
 
 h1.border{
-  position:absolute;
+  position: absolute;
   top: 234px;
   left: 139px;
   color: #ffffff;
@@ -289,11 +289,10 @@ h1.border{
   width: 675px;
   height: 162px;
   border: 6px solid #ffffff;
-  margin: -4px;
+  margin: -19px -4px -4px -4px;
+  padding-top:7 5px;
   text-align: center;
-  margin-top:-19px;
-  padding-top:75px;
-  }
+}
 
 form {  /* Just to center the form on the page */
   margin: 0 auto;
@@ -321,7 +320,7 @@ textarea {
 
 input[type="text"] {
   padding: 8px 5px;
-  width:266px;
+  width: 266px;
 }
 
 input[type="text"]:focus {
@@ -339,7 +338,7 @@ input[type="submit"] {
   text-decoration: none;
   margin-left: 194px;
   width: 179px;
-  border:none;
+  border: none;
 }
 
 input[type="submit"]:hover {
@@ -355,7 +354,17 @@ input[type="submit"]:hover {
   margin-top: 20px;
 }
 
+/* Just to center the form on the page */
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+}
+
+/*to center Let's talk*/
 h2.contact {
+  text-align: center;
+  margin: 28px 20px 16px;
   padding-top: 30px;
 }
 
