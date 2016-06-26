@@ -288,6 +288,7 @@ h2.title {
   width:960px;
   opacity: .5;
   position: relative;
+  -webkit-filter: grayscale(100%);
 }
 
 h1.border{
@@ -297,9 +298,9 @@ h1.border{
   color: #ffffff;
   font-weight:bold;
   width: 675px;
-  border: 6px solid #ffffff;
-  margin: -19px -4px -4px -4px;
-  padding: 64px 0;
+  border: 8px solid #ffffff;
+  margin: -76px -4px -4px -4px;
+  padding:110px 30px;
   text-align: center;
 }
 
