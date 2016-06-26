@@ -117,9 +117,9 @@ h1.border{
   height: 162px;
   border: 6px solid white;
   margin: -4px;
-  text-align: center;
   margin-top:-19px;
   padding-top:75px;
+  text-align:center;
   }
 
 /*footer */
@@ -369,5 +369,7 @@ form {  /* Just to center the form on the page */
 }
 
 h2.contact {
-padding-top: 30px;
+  text-align: center;
+  margin: 28px 20px 16px;
+ padding-top: 30px;
 }
