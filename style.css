@@ -282,15 +282,14 @@ h2.title {
 
 h1.border{
   position: absolute;
-  top: 234px;
+  top: 250px;
   left: 139px;
   color: #ffffff;
   font-weight:bold;
   width: 675px;
-  height: 162px;
   border: 6px solid #ffffff;
   margin: -19px -4px -4px -4px;
-  padding-top:7 5px;
+  padding: 64px 0;
   text-align: center;
 }
 
